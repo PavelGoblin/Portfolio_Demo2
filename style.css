@@ -42,3 +42,89 @@ html,body{
     font-size: 25px;
     font-weight: 600;
 }
+#content{
+    margin-top: 60px;
+    padding: 40px 65px;
+}
+#content h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+#content h1{
+    margin-top: 45px;
+    font-size: 180px;
+    line-height: 165px;
+    font-weight: 500;
+    letter-spacing: -9px;
+    word-spacing: 12px;
+}
+#case{
+    padding: 40px 65px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4{
+    font-size: 26px;
+    font-weight: 600;
+}
+#case h5{
+    font-size: 26px;
+    font-weight: 600;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#line{
+    height: 2px;
+    width: 160px;
+    background-color: #000;
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 65px;
+    gap: 80px;
+}
+.elem{
+    width: 50%;
+}
+.elem-img{
+    height: 700px;
+    background-color: rgb(199, 234, 241);
+    width: 100%;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center ;
+}
+#img1{
+    background-image: url(https://img.etimg.com/thumb/width-1200,height-900,imgsize-454880,resizemode-75,msid-72084385/magazines/panache/a-20-carat-blue-diamond-that-fetched-15-mn-may-prove-saviour-for-debt-ridden-owner.jpg);
+}
+#img2{
+    background-image: url(https://cdn.dribbble.com/users/2778493/screenshots/14196709/media/6d1489cb2e94e77c5257014095252df2.png);
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.bottom i{
+    padding: 14px 30px;
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.bottom i:hover{
+    background-color: black;
+    color: #fff;
+}
+.bottom h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
